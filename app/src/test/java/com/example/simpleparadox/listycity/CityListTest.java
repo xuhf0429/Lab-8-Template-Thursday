@@ -14,6 +14,7 @@ class CityListTest {
     }
 
     private City mockCity() {
+
         return new City("Edmonton", "Alberta");
     }
 
@@ -95,12 +96,22 @@ class CityListTest {
     }
 
     @Test
-    void testNumberCity(){
+    void testEligibleNumber(){
         CityList cityList = mockCityList();
+     //   assertEquals(1, cityList.eligibleNumber());
 
-        City city = new City("Calgary", "Alberta");
-        cityList.add(city);
+    //    City city = new City("Calgary", "Alberta");
+      //  cityList.add(city);
+     //   assertEquals(2, cityList.eligibleNumber());
 
-        assertEquals(2, cityList.countCities());
+    //    City city1 = new City("Vancouver", "BC");
+      //  cityList.add(city1);
+
+        //City city2 = new City("Miami", "FL");
+        //cityList.add(city2);
+
+     //   cityList.eligibleNumber();
+        assertTrue(cityList.eligibleNumber());
+
     }
 }
