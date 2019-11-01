@@ -100,12 +100,12 @@ class CityListTest {
         CityList cityList = mockCityList();
       //  assertEquals(1, cityList.eligibleNumber());
 
-    //    City city = new City("Calgary", "Alberta");
-      //  cityList.add(city);
+        City city = new City("Calgary", "Alberta");
+        cityList.add(city);
      //   assertEquals(2, cityList.eligibleNumber());
 
-        //City city1 = new City("Vancouver", "BC");
-       // cityList.add(city1);
+        City city1 = new City("Vancouver", "BC");
+        cityList.add(city1);
 
    //     City city2 = new City("Miami", "FL");
      //   cityList.add(city2);
