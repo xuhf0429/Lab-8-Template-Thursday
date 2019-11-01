@@ -75,6 +75,22 @@ public class CityList {
      *      Size of city list
      */
     public int countCities() {
+
         return cities.size();
     }
+
+    /**
+     * Return true if the city list has at least 3 cities, else false
+     * @return
+     *      Judge of city list size
+     */
+
+    public boolean eligibleNumber(){
+
+        if (cities.size()<3){
+            return false;
+        }
+        return true;
+    }
+
 }
