@@ -97,6 +97,10 @@ class CityListTest {
     @Test
     void testNumberCity(){
         CityList cityList = mockCityList();
+
+        City city = new City("Calgary", "Alberta");
+        cityList.add(city);
+
         assertEquals(2, cityList.countCities());
     }
 }
